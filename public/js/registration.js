@@ -57,7 +57,7 @@ $(document).ready(function () {
                 'index.php?action=checkInscription',
                 $(this).serialize(),
                 function (d) {
-                    $('#notification').html( '<p class="alert alert-success">Vous êtes désormais inscrit(e)!</p>');
+                    $('#notification').html( '<p class="alert alert-success">'+d+'</p>');
 
                 }
             )
