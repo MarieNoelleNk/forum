@@ -83,7 +83,7 @@
                             <?= ucfirst($data['subject_title']); ?>
 
                         </a>
-                        <span> //effacer un sujet
+                        <span>
                               <?php if (isset($_SESSION['status']) && $_SESSION['status'] == 1):?>
 
                                   <a href="index.php?action=deleteTopic&amp;topicId=<?= $data['subject_id'];?>&amp;catId=<?= $data['subject_cat_id']; ?>&amp;subcatId=<?= $data['subject_subcat_id']; ?>" >

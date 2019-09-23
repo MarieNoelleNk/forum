@@ -25,7 +25,6 @@ a:hover{
 
 }
 
-
 /****************** barre de navigation *************/
 
 .navbar-brand img{
@@ -198,7 +197,7 @@ a:hover{
 
 }
 
-/*----------------Price plan----------------------*/
+/*----------------Adhesion----------------------*/
 #price{
     background-image: linear-gradient(rgba(46,87,45,0.8), rgba(46,87,45,0.8)),url('images/group3-unsplash.jpg');
     background-size: cover;
@@ -466,6 +465,11 @@ blockquote::before{
 }
 
 /*---------------------------------------- MEDIA QUERIES -------------------------------------*/
+@media screen and (max-width:1020px){
+    .navbar-nav li {
+        padding: unset;
+    }
+}
 @media screen and (max-width:768px){
     h1{
         font-size: 2rem;
@@ -474,7 +478,7 @@ blockquote::before{
         width: 40px;
     }
 
-    /*--------------------- abonnement/ page d'accueil-------------------------*/
+    /*--------------------- adhesion/ page d'accueil-------------------------*/
     .card-header{
         font-size: 1.5rem;
     }

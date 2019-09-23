@@ -102,7 +102,7 @@ $cat = 0;
 <!--  -->
 
 
-    <table class="table table-responsive table-hover table-striped pt-5">
+    <table class="table table-hover table-striped pt-5">
 
         <?php
 
