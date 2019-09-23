@@ -7,6 +7,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Handisport">
+        <meta property="og:url" content="http://www.mesrealisationsweb.fr/forum/">
+        <meta property="og:image" content="public/images/logo.png">
         <title> <?= $title ?></title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
