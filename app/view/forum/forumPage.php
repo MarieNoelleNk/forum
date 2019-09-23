@@ -102,8 +102,7 @@ $cat = 0;
 <!--  -->
 
 
-<div class="pt-5 pl-2 pr-2">
-    <table class="table table-hover table-striped">
+    <table class="table table-responsive table-hover table-striped pt-5">
 
         <?php
 
@@ -202,7 +201,7 @@ $cat = 0;
 
     </table>
 
-</div>
+
 
 <?php $content= ob_get_clean();?>
 

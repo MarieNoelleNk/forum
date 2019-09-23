@@ -142,7 +142,7 @@
 <!--- Abonnement  -->
 <section id="price" class="zoomIn">
     <div class="container">
-        <h1 class="pb-4">Abonnement</h1>
+        <h1 class="pb-4">Adhésion</h1>
         <div class="row">
             <div class="col-md-6 col-sm-12 pt-5">
 

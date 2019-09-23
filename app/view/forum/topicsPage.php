@@ -77,9 +77,23 @@
 
                 <td data-title="Sujets">
                     <p>
+
                         <a href="index.php?action=singleTopic&amp;topicId=<?= $data['subject_id']; ?>">
+
                             <?= ucfirst($data['subject_title']); ?>
-                        </a> <br>
+
+                        </a>
+                        <span> //effacer un sujet
+                              <?php if (isset($_SESSION['status']) && $_SESSION['status'] == 1):?>
+
+                                  <a href="index.php?action=deleteTopic&amp;topicId=<?= $data['subject_id'];?>&amp;catId=<?= $data['subject_cat_id']; ?>&amp;subcatId=<?= $data['subject_subcat_id']; ?>" >
+
+                                     <img src="public/images/cancel.png" alt="bouton supprimer" width=20>
+
+                                 </a>
+                              <?php endif;?>
+                         </span> <br>
+
                         <?= $data['subject_description']; ?>
 
                     </p>

@@ -9,7 +9,7 @@
             <?= ucfirst($subject['subject_title']);
             ?>
             <span>
-                <?php if ( $_SESSION['id'] === $subject['subject_author'] || $_SESSION['status'] == 1):?>
+                <?php if ( $_SESSION['id'] === $subject['subject_author']):?>
 
                     <a href="index.php?action=deleteTopic&amp;topicId=<?= $subject['subject_id'];?>&amp;catId=<?= $subject['subject_cat_id']; ?>&amp;subcatId=<?= $subject['subject_subcat_id']; ?>" >
 

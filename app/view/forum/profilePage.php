@@ -8,7 +8,7 @@ ob_start();
         Bienvenue sur votre espace membre <strong> <?= ucfirst($member['m_username']);  ?> </strong>
     </h4>
 
-    <div class="table-responsive pt-5 pl-5 pr-5">
+    <div class="table-responsive pt-5">
         <table class="table table-hover text-center">
             <thead class="thead_light">
             <tr>
