@@ -407,7 +407,16 @@ blockquote::before{
     display: none;
 }
 
+/*---------------------------------------- profil --------------------------------------------------------*/
+
+.table-responsive{
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
 /*---------------------------------------------- FORUM  --------------------------------------------------------*/
+
 .forum_section{
     padding-top: 5%;
 }
@@ -493,7 +502,7 @@ blockquote::before{
     .offset-3 {
         margin-left: 0;
     }
-    /*--------------------- CONTACT /page d'accueil  -------------------------*/
+    /*--------------------- localisation -------------------------*/
 
     iframe{
         width: 100%;
@@ -501,5 +510,19 @@ blockquote::before{
 
     #localisation{
         display: block;
+    }
+
+    /*--------------------- page de profil -------------------------*/
+
+    .table-responsive {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width:535px){
+    table{
+        font-size: 14px;
     }
 }
