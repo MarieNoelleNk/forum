@@ -9,6 +9,7 @@
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Handisport">
+        <meta property="og:description" content="Site officiel de l'association Orcandie">
         <meta property="og:url" content="http://www.mesrealisationsweb.fr/forum/">
         <meta property="og:image" content="public/images/logo.png">
         <title> <?= $title ?></title>

@@ -20,7 +20,7 @@ $(document).ready(function () {
             $('.error-username').fadeOut()
         }
 
-        //verification du pseudo
+        //verification de l'email
         if (email !== 'Email validé!' ) {
             errors.push("Email utilisé!");
             $('#error-email').fadeIn().text("Choisissez un email libre")

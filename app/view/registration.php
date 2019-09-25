@@ -44,7 +44,7 @@ ob_start();
                                     Pseudo
                                 </label>
                                 <input type="text" name="m_username" id="username" class="form-control" required
-                                onchange="checkUsername()">
+                                       onkeyup="checkUsername()">
                                 <div class="error-username"></div>
                             </fieldset>
 
@@ -54,7 +54,7 @@ ob_start();
                                     Email
                                 </label>
                                 <input type="email" name="m_email" id="email" class="form-control" required
-                                   onchange="checkEmail()">
+                                       onkeyup="checkEmail()">
                                 <div id="error-email"></div>
                             </fieldset>
 
