@@ -54,13 +54,6 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?action=m_profile&id=<?= $_SESSION['id'];?>" >
-                            <span> <img src="public/images/name.png" width="25" alt="icone"></span>
-                            MON PROFIL
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="index.php?action=forum">
                             <span> <img src="public/images/chat.png" width="25" alt="icone"></span>
                             LE FORUM
@@ -71,6 +64,13 @@
                         <a class="nav-link" href="index.php?action=localisation">
                             <span> <img src="public/images/map.png" width="25" alt="icone"></span>
                             LOCALISATION
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?action=m_profile&id=<?= $_SESSION['id'];?>" >
+                            <span> <img src="public/images/name.png" width="25" alt="icone"></span>
+                            MON PROFIL
                         </a>
                     </li>
 
@@ -93,9 +93,9 @@
 
 
         <!-- footer -->
-        <footer class="footer mt-auto py-3">
+        <footer class="container-fluid bg-dark text-white-20">
 
-            <a href="https://icons8.com/icon/9777/swimming">icon by Icons8</a>
+          icon by Icons8
         </footer>
 
     </body>
