@@ -19,6 +19,11 @@ ob_start();
                         Veuillez remplir le formulaire ci dessous pour vous enregistrer.
                     </div>
                     <div class="card-body">
+                        <?php
+                        if(!empty($message)){
+                            echo '<div class="alert alert-danger text-center">'.$message.'</div>';
+                        }
+                        ?>
 
                         <form id="registration" method="post" >
 

@@ -29,7 +29,7 @@
     <body>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="main_navbar">
             <a class="navbar-brand" href="#">
                 <img src="public/images/logo.png" width="40" height="40" alt="le logo handisport">
             </a>
@@ -98,7 +98,7 @@
         <!-- footer -->
         <footer class="container-fluid bg-dark text-white-20">
 
-            <a href="https://icons8.com/icon/9777/swimming">icon by Icons8</a>
+            icon by Icons8
         </footer>
 
     </body>

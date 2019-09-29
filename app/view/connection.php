@@ -16,11 +16,16 @@ ob_start();?>
 
                 <div class="card">
                     <div class="card-header text-center">
-
-                        Pour accéder au forum veuillez vous connecter.
+                        Veuillez remplir tous les champs.
                     </div>
 
                     <div class="card-body">
+
+                        <?php
+                        if(!empty($error)){
+                            echo '<div class="alert alert-danger text-center">'.$error.'</div>';
+                        }
+                        ?>
 
                         <form action=index.php?action=checkLogin id="login_form" method="post">
 
@@ -41,11 +46,6 @@ ob_start();?>
                                 <input type="password" name="m_password" id="m_password" class="form-control" required>
                             </fieldset>
 
-                            <?php
-                            if(!empty($error)){
-                                echo '<div class="alert alert-success text-center">'.$error.'</div>';
-                            }
-                            ?>
 
                             <input type="submit" id="connect" name="connect" class="btn btn-success" value="se connecter">
                             <p class="form_message pt-2">

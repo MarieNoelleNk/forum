@@ -55,7 +55,7 @@ class Crud extends Manager
 
         $start = ($current_page -1)*$limit;
 
-        $request = "SELECT * FROM ".$table." LIMIT :start,:limit";
+        $request = "SELECT * FROM ".$table." WHERE status = 2 LIMIT :start,:limit";
 
         $result = $this->database->prepare($request);
         $result->bindValue(":limit",$limit, \PDO::PARAM_INT);
